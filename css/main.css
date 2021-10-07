@@ -145,7 +145,7 @@ figcaption {
   text-align: center;
 }
 
-footer .nav2{
+footer nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
