@@ -95,6 +95,7 @@ nav a {
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
+  border: 2px solid #000;
 }
 
 .icon {
@@ -145,7 +146,7 @@ figcaption {
   text-align: center;
 }
 
-footer nav {
+footer > nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -153,6 +154,8 @@ footer nav {
   background-image: none;
   border-radius: 6px 6px 0 0;
   color: #fff;
+  padding: 2rem 20.25rem;
+  margin-top: -1rem;
 }
 
 footer {
@@ -162,4 +165,5 @@ footer {
   background-image: url("../images/anchors.svg");
   background-color: #1e7c74;
   color: #fff;
+  border-radius:6px 6px 0 0;
 }
